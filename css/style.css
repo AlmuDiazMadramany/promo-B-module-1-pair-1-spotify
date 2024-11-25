@@ -71,10 +71,39 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 80px;
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.content p{
+    font-size: 15px;
+}
+
+.content h3{
+    font-size: 17px;
+}
+
+.title2{
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
 .benefits{
     display: flex;
     flex-direction: row;
+    gap: 10px;
+    margin: 15px;
+}
+
+.benefits img{
+    width: 30%;
 }
 
 .footer {
@@ -86,8 +115,44 @@ a{
     justify-content: space-between;
 }
 
+.copy{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.copy img{
+    width: 25px;
+}
+
+
 .link{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+@media (min-width: 480px){
+    .menu-icon{
+        display: none;
+    }
+    .list{
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        list-style: none;
+        gap: 10px;
+    }
+    
+
+}
+
+@media (min-width: 1000px){
+
+
+    
 }
