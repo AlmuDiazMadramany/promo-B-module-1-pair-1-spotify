@@ -1,0 +1,167 @@
+/*@import 'core/variables';
+@import 'core/reset';
+@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';*/
+
+:root {
+    --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1, h2, h3{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.header {
+    background-color: black;
+    font-family: var(--font-family);
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0; 
+}
+
+.list{
+    display: none;
+}
+.logo {
+    width: 100px;
+}
+
+.menu-icon {
+    width: 50px;
+ 
+}
+
+.section1 {
+    background: rgb(100, 154, 234);
+    height: 50vh;
+    color: white;
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding:15px;
+}
+.boton{
+    background-color: rgb(89,180,98);
+    padding: 15px;
+    margin: 10px;
+    display: inline;
+    text-align: center;
+    border-radius: 40px;
+    font-weight: bold;
+}
+.title1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+}
+.escucha{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.terminos{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section2 {
+    background-color: white;
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.content p{
+    font-size: 15px;
+}
+
+.content h3{
+    font-size: 17px;
+}
+
+.title2{
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.benefits{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 15px;
+}
+
+.benefits img{
+    width: 30%;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    font-family: var(--font-family);
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.copy{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.copy img{
+    width: 25px;
+}
+
+
+.link{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+@media (min-width: 480px){
+    .menu-icon{
+        display: none;
+    }
+    .list{
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        list-style: none;
+        gap: 10px;
+    }
+    
+
+}
+
+@media (min-width: 1000px){
+
+
+    
+}
