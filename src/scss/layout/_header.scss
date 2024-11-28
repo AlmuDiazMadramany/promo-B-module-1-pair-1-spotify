@@ -1,5 +1,23 @@
-.page__header {
+.header {
+  background-color: black;
+  font-family: $font-family;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  padding: 10px;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0; 
 }
+
+.list{
+  display: none;
+}
+.logo {
+  width: 100px;
+}
+
+.menu-icon {
+  width: 50px;
+
+}
+

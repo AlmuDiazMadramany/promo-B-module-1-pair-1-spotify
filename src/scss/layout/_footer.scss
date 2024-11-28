@@ -1,8 +1,31 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+  background-color: black;
+  color: white;
+  font-family: $font-family;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.copy{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.copy img{
+  width: 25px;
+}
+
+
+.link{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+a {
+  @include a-properties ();
 }

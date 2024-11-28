@@ -1,0 +1,34 @@
+.section1 {
+    background: rgb(100, 154, 234);
+    height: 50vh;
+    color: white;
+    font-family: $font-family;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding:15px;
+}
+.boton{
+    background-color: rgb(89,180,98);
+    padding: 15px;
+    margin: 10px;
+    display: inline;
+    text-align: center;
+    border-radius: 40px;
+    font-weight: bold;
+}
+.title1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: $title-weight;
+    
+}
+.escucha{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.terminos{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,28 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.content p{
+    font-size: 15px;
+}
+
+.content h3{
+    font-size: 17px;
+    font-weight: $title-weight;
+}
+
+
+
+.benefits{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 15px;
+}
+
+.benefits img{
+    width: 30%;
+}
