@@ -7,6 +7,10 @@
     flex-direction: column;
     justify-content: flex-end;
     padding:15px;
+    @media (min-width:480px) {
+        background-color: none;
+        background-image: url(/public/images/premium_dancer.png);
+    }
 }
 .boton{
     background-color: rgb(89,180,98);

@@ -3,32 +3,17 @@
 @import 'components/code';
 @import 'components/links';
 @import 'layout/page';
-@import 'layout/header';
+
 @import 'layout/footer';
 @import 'pages/index';*/
 
+@import 'core/variables';
 @import 'core/reset';
+@import 'core/mixins';
+@import 'layout/header';
+@import 'layout/hero';
+@import 'layout/why-section';
+@import 'layout/benefit';
+@import 'layout/footer';
 
 
-
-@media (min-width: 480px){
-    .menu-icon{
-        display: none;
-    }
-    .list{
-        color: white;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row;
-        list-style: none;
-        gap: 10px;
-    }
-    
-
-}
-
-@media (min-width: 1000px){
-
-
-    
-}
