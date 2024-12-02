@@ -24,6 +24,11 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 10px;
+  @media (min-width: 480px) {
+    align-items: flex-end;
+
+
+}
 }
 
 a {

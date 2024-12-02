@@ -14,3 +14,13 @@
     font-weight: $title-weight;
 }
 
+.benefits-articles{
+    @media (min-width: 480px){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media (min-width: 1000px) {
+        display: flex;
+    }
+}
